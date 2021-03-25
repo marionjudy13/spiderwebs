@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Spiderwebs.Dev</title>
-        <link rel="icon" href="/public/spider.svg" />
+        <title>SpiderWebs</title>
+        <link rel="icon" href="/spider.svg" />
       </Head>
 
       <main className={styles.main}>
