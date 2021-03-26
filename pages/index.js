@@ -1,18 +1,16 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Intro from '../components/intro'
+import Layout from '../components/layout'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <Layout>
       <Head>
-        <title>SpiderWebs</title>
+        <title>Spider Webs</title>
         <link rel="icon" href="/spider.svg" />
       </Head>
-
-      <main className={styles.main}>
-        SPIDERWEBS.DEV
-      </main>
-
-    </div>
+      <Intro />
+    </Layout>
   )
 }
+    
