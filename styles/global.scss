@@ -1,8 +1,15 @@
-/* styles/global/globals.css */
+
+@font-face {
+  font-family: "GlamourAbsoluteregular";
+  src: local("GlamourAbsoluteregular"), url("../public/fonts/GlamourAbsoluteregular/font.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   box-sizing: border-box;
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: "GlamourAbsoluteregular", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 *,
@@ -48,8 +55,10 @@ a {
   text-decoration: none;
 }
 
-body {
-  background-image: url(../public/images/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+:root {
+  --pink: #FD0BA0;
+  --darkPink: #95368C;
+  --purple: #2A3169;
+  --white: #fff;
+  --black: #000;
 }
