@@ -1,7 +1,7 @@
 export default function Intro() {
   return (
     <main>
-      <h1>spider webs</h1>
+      <h1>I reeeeeally want to build websites with you.</h1>
       <style jsx>{`
         main {
           display: flex;
@@ -13,6 +13,7 @@ export default function Intro() {
         }
         h1 {
           color: var(--white);
+          letter-spacing: 1px;
           width: 100%;
       `}
       </style>
