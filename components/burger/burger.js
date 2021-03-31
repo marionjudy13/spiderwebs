@@ -16,8 +16,8 @@ const Burger = ({ open, setOpen }) => {
       <style jsx>{`
         button {
           position: absolute;
-          top: 3em;
-          right: 3rem;
+          top: 2.4em;
+          right: 2.4rem;
           display: flex;
           flex-direction: column;
           justify-content: space-around;
